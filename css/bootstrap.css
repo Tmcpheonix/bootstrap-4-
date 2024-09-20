@@ -1,0 +1,79 @@
+*{box-sizing: border-box; padding: 0; margin: 0;}
+
+.top{position: fixed; width: 300px; padding: 15px solid rgb(28, 66, 82);
+    border: 3px solid #21daf3 0.3; ; margin: 20px 0px 50px 0px; width: 100%;}
+.jumbotron h1{font-size: 75px;}
+.jumbotron p{font-size: 35px;}
+.jumbotron{color: white;}
+.banner{background-image: url(../pictures/use.jpg); height: 400px;}
+
+.features{color: rgb(9, 8, 82); justify-content: center;}
+.features div{display: inline-block;}
+
+.features i{padding: 40px; margin: 20px 60px 0px 20px; 
+    border-radius: 100px;
+     font-size: 50px; size: 150px; border-color: cadetblue;}
+
+     .features i:hover{color: aliceblue;
+    background-color: rgb(72, 129, 161); opacity:0.4 ;
+    transform: translate(0px, -8px);
+    transition: transform 0.3s, opacity 0.3s;}
+
+    .features P{
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .bottom{background-color: rgb(8, 16, 49); margin: 40px; color: black;}
+    .container h2{color: slategrey; text-decoration: underline; font-style: bold;}
+    h2::first-letter {
+        font-size: 200%;
+        color: #182ce0;
+      }
+
+      .courses img:hover{opacity:0.4 ;
+        transform: translate(0px, -8px);
+        transition: transform 0.3s, opacity 0.3s;}
+
+    .bottom div{background-color: rgb(220, 219, 223);
+    color: black; padding: 10px 20px 10px 20px;}
+
+    .bottom img{height: 200px; border-radius: 5px; border-color: bisque; border: 2px solid;}
+
+    .bottom img:hover{color: aliceblue;
+        background-color: blue;}
+
+    .container{background-color: rgb(119, 104, 104 0.1);}
+
+    .testimony{background-color:  rgb(8, 16, 49); color: white; height: 600px; padding: 20px; margin: 5px;}
+
+    .testimonyitem{display: flex; justify-content: space-between; padding: 0px 60px 0px 60px;}
+
+     .cta{padding: 40px 20px 20px 0px; background-color: rgb(8, 16, 49); margin-bottom: 5px solid grey; display: inline-block
+        ; border-bottom: 5px solid grey;}
+     
+     .footer{background-color: rgb(8, 16, 49);}
+
+     .footer .nav-link{color: white; background-color: rgba(39, 32, 32, 0.795); margin: 1px; text-align: start; border-radius: 5px;}
+
+     .footer .nav-link:hover{color: white; background-color:blue;; margin: 1px;}
+
+     .footer hr{size: 5px solid white; font-weight: 5px;}
+
+     .footer span{font-size: small;}
+
+     .nav-link .div{display: inline-block;}
+
+     .try{display: flex;}
+
+     .courses{display: flex;} */
+
+    .attach img{width: 100px; margin: 5px 5px 50px 0px; height: 120px; padding: 0px 0px 40px 20px;}
+
+    .copyrightbar{background-color: rgb(8, 16, 49); 
+        margin: 3px; border-top: 1px solid whitesmoke; display: flex;
+    justify-content: space-evenly;}
+
+
+
+    
